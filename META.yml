@@ -8,7 +8,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 7.0401, CPAN::Meta::Converter version 2.150001'
+generated_by: 'ExtUtils::MakeMaker version 7.1, CPAN::Meta::Converter version 2.150001'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -20,10 +20,10 @@ no_index:
     - xt
 requires:
   Moo: '0'
-  Type::Tiny: '0'
+  Type::Tiny: '1.000002'
 resources:
   IRC: irc://irc.perl.org/#web-simple
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=MooX-TypeTiny
   license: http://dev.perl.org/licenses/
   repository: https://github.com/haarg/MooX-TypeTiny.git
-version: '0.001000'
+version: '0.001001'
